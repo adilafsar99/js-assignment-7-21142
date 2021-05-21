@@ -16,7 +16,7 @@ if (taskNum === 1) {
 				var firstName = "";
 				var lastName = "";
 				while (firstName === "" || firstName === null) {
-								firstName = prompt("Enter your first name:"); the
+								firstName = prompt("Enter your first name:");
 								if (firstName === "" || firstName === null) {
 												alert("A name must be provided!");
 								}
@@ -197,7 +197,7 @@ else if (taskNum === 13) {
 								}
 					}
 			}
-			alert("You password is valid!");
+			alert("You username is valid!");
 }
 
 else if (taskNum === 14) {		
@@ -262,6 +262,9 @@ else if (taskNum === 15) {
 				  else if (numberCount === 0) {
 				  				alert("Your input has no number. Please enter a valid password!");
 				  }
+  }
+  if (letterCount > 0 && numberCount > 0) {
+     alert("Your password is valid!);
   }
 }
 
