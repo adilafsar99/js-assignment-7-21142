@@ -264,7 +264,7 @@ else if (taskNum === 15) {
 				  }
   }
   if (letterCount > 0 && numberCount > 0) {
-     alert("Your password is valid!);
+     alert("Your password is valid!");
   }
 }
 
